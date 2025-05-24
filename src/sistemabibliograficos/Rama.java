@@ -13,6 +13,12 @@ public class Rama {
     private String tipoDocumento;
     private String lugarRedaccion;
     private String descripcion;
+    private String genero;  // nuevo atributo agregado
+
+    // Constructor
+    public Rama(String nombre, String tipoDocumento, String lugarRedaccion, String descripcion, String genero) {
+        this(nombre, tipoDocumento, lugarRedaccion, descripcion);
+    }
 
     // Constructor
     public Rama(String nombre, String tipoDocumento, String lugarRedaccion, String descripcion) {
@@ -20,6 +26,7 @@ public class Rama {
         this.tipoDocumento = tipoDocumento;
         this.lugarRedaccion = lugarRedaccion;
         this.descripcion = descripcion;
+        this.genero = genero;  // inicializado en constructor
     }
 
     // Getter y Setter para nombre
@@ -56,5 +63,14 @@ public class Rama {
 
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
+    }
+
+    // Getter y Setter para genero
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
     }
 }

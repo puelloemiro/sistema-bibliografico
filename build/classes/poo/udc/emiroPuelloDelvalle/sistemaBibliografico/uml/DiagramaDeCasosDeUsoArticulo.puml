@@ -1,0 +1,20 @@
+@startuml
+
+title Diagrama de Casos de Uso - Artículo
+left to right direction
+
+actor Usuario
+actor Administrador
+
+usecase "Registrar Artículo" as UC1
+usecase "Editar Artículo" as UC2
+usecase "Eliminar Artículo" as UC3
+usecase "Consultar Artículos" as UC4
+
+Usuario --> UC4
+Administrador --> UC1
+Administrador --> UC2
+Administrador --> UC3
+Administrador --> UC4
+
+@enduml

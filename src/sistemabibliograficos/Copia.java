@@ -39,13 +39,17 @@ public void setUbicacion(String ubicacion) {
 }
 
 
-public boolean getisDisponibilidad() {
+public boolean isDisponibilidad() {
     return disponibilidad;
 }
 
 public void setDisponibilidad(boolean disponibilidad) {
     this.disponibilidad = disponibilidad;
 }
+
+    public boolean getisDisponibilidad() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
         
         

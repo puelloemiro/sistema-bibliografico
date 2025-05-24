@@ -1,0 +1,19 @@
+@startuml
+
+left to right direction
+actor Usuario as U
+rectangle "Casos de Uso - Copia" {
+
+  usecase "Registrar Copia" as UC1
+  usecase "realizar Copias" as UC2
+  usecase "Actualizar Copia" as UC3
+  usecase "Eliminar Copia" as UC4
+    }
+    U --> UC1
+    U --> UC2
+    U --> UC3
+    U --> UC4
+
+
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+title Diagrama de Casos de Uso - Usuario
+
+left to right direction
+actor Usuario 
+rectangle "Casos de Uso - Usuario" {
+  usecase "Registrar Usuario" as UC1
+  usecase "Listar Usuarios" as UC2
+  usecase "Actualizar Usuario" as UC3
+  usecase "Eliminar Usuario" as UC4
+    }
+    Usuario --> UC1
+    Usuario --> UC2
+    Usuario --> UC3
+    Usuario --> UC4
+
+@enduml

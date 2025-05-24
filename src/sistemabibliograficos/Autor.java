@@ -13,6 +13,10 @@ public class Autor {
     private String nacionalidad;
     private int edad;
     private String rama;
+    
+    
+    public Autor() {
+    }
 
     public Autor(String nombre,String nacionalidad, int edad, String rama) {
         this.nombre = nombre;
@@ -59,6 +63,14 @@ public class Autor {
     public void setnombre() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
-}
+
+    public int getId() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public String getNombre() {
+    return nombre;
+}    }
+
 
 

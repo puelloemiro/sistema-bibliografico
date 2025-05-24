@@ -14,7 +14,7 @@ public class InformeTecnico {
     private String resumen;
     private String centroPublicacion;
     private String mesPublicacion;
-    private int añoPublicacion;
+    public int añoPublicacion;
     private String ubicacionFisica;
     private boolean disponible;
 
@@ -95,12 +95,16 @@ public void setUbicacionFisica(String ubicacionFisica) {
 }
 
 // Getter y Setter para disponible
-public boolean isDisponible() {
+    public boolean isDisponible() {
     return disponible;
-}
+    }
 
-public void setDisponible(boolean disponible) {
+    public void setDisponible(boolean disponible) {
     this.disponible = disponible;
-}
+    }
+
+    public int getAño() {
+    return añoPublicacion;
+    }
         
     }

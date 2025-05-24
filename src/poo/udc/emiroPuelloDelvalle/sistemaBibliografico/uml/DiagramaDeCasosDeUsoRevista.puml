@@ -1,0 +1,17 @@
+@startuml
+
+left to right direction
+actor Usuario as U
+rectangle "Casos de Uso - Revista" {
+
+  usecase "Registrar Revista" as UC1
+  usecase "Listar Revistas" as UC2
+  usecase "Actualizar Revista" as UC3
+  usecase "Eliminar Revista" as UC4
+    }
+    U --> UC1
+    U --> UC2
+    U --> UC3
+    U --> UC4
+
+@enduml

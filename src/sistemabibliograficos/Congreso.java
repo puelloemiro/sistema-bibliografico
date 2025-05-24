@@ -15,22 +15,21 @@ package sistemabibliograficos;
     private int año;
     private String tema;
 
-    // Constructor
     public Congreso(String nombreCongreso, String ciudad, int año, String tema) {
         this.nombreCongreso = nombreCongreso;
         this.ciudad = ciudad;
         this.año = año;
         this.tema = tema;   
     }  
-        public String getNombreCongreso() {
+
+    public String getNombre() {
         return nombreCongreso;
     }
 
-    public void setNombreCongreso(String nombreCongreso) {
+    public void setNombre(String nombreCongreso) {
         this.nombreCongreso = nombreCongreso;
     }
 
-    // Getter y Setter para ciudad
     public String getCiudad() {
         return ciudad;
     }
@@ -39,7 +38,6 @@ package sistemabibliograficos;
         this.ciudad = ciudad;
     }
 
-    // Getter y Setter para año
     public int getAño() {
         return año;
     }
@@ -48,7 +46,6 @@ package sistemabibliograficos;
         this.año = año;
     }
 
-    // Getter y Setter para tema
     public String getTema() {
         return tema;
     }

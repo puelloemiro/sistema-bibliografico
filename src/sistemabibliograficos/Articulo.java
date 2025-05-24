@@ -54,5 +54,9 @@ public class Articulo {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+
+    public int getId() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }

@@ -1,0 +1,17 @@
+@startuml
+
+left to right direction
+actor Usuario as U
+rectangle "Casos de Uso - Congreso" {
+
+  usecase "Registrar Congreso" as UC1
+  usecase "Listar Congresos" as UC2
+  usecase "Actualizar Congreso" as UC3
+  usecase "Eliminar Congreso" as UC4
+    }
+    U --> UC1
+    U --> UC2
+    U --> UC3
+    U --> UC4
+
+@enduml
